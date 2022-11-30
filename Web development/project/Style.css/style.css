@@ -1,0 +1,176 @@
+ body{
+  background-color: #B2B2B2;
+}
+.Home{
+  list-style: none;
+  text-align: right;
+  font-family: "Montserrat-bold";
+  color: #fff;
+}
+.nav{
+  font-family: "Montserrat-bold";
+  color: #fff;
+  text-decoration: none;
+  padding: 10rem 0.5rem;
+}
+h1{
+  color: #fff;
+  text-align: center;
+  font-family: "Montserrat-bold";
+  padding: 30px 0 ;
+
+}
+h2{
+  font-family: serif;
+  color: #B2B2B2;
+  margin-left: 5px;
+}
+.Skill-row{
+  font-family: "Monserrat";
+  color: #B2B2B2;
+  font-size: 1.5rem;
+  padding: 0 0 10rem 8rem;
+  background-color: #fff;
+
+}
+.middle-container{
+  background-color: #B2B2B2;
+  padding: 0 0 6rem 6rem;
+}
+.bottom-container{
+  font-family: "Monserrat";
+  color: #B2B2B2;
+  font-size: 1.5rem;
+  padding: 0 0 10rem 8rem;
+  background-color:#fff;
+}
+.Scottish{
+  width: 7 0%;
+  /* float: left; */
+  margin-left: 30px;
+
+}
+.kle{
+  float: right;
+
+}
+.Image{
+  height: 180px;
+  float: left;
+  padding-right: 2rem;
+
+}
+.American{
+  float: left;
+  margin-right: 50px;
+}
+.Hairless{
+  float: right;
+  margin-left: 50px;
+}
+.Foxhound{
+  float: left;
+  margin-right: 30px;
+}
+.Bottom-2-container{
+  font-family: "san-serif";
+  color: #B2B2B2;
+  font-size: 1.5rem;
+  padding: 0 0 10rem 8rem;
+  background-color: #fff;
+}
+.Bottom-3-container{
+  font-family: "san-serif";
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 0 0 10rem 8rem;
+  background-color: #B2B2B2;
+}
+
+
+
+
+/* .Kai{
+  width: 50%;
+}*/
+.Klee{
+
+    /* width: 70%; */
+    /* float: right; */
+    /* margin-right: 30px; */
+    font-family: "Monserrat";
+    color: #fff;
+    margin-left: 30px;
+    font-size: 1.5rem;
+}
+.kai{
+  padding-top: 8rem;
+  padding-left: 10rem;
+  font-family: serif;
+  color: #fff;
+  font-size: 2rem;
+
+}
+.Image2{
+  float: right;
+  margin-right: 80px;
+}
+.Least-Bottom-container{
+  background-color: #fff;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-bottom: 4.5rem;
+  margin-left: 20px;
+
+
+}
+.nav-item{
+  margin: auto;
+}
+.nav-link{
+  font-size: 1.5rem;
+  font-family: "Monserrat-light";
+  padding-bottom:  6rem;
+  padding-right: 50px;
+
+}
+.navbar-nav{
+  padding-top: 50px;
+  padding-right: 50px;
+}
+.foot{
+  font-size: 20px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.buttonClass {
+  font-size:20px;
+  font-family:Arial;
+  width:140px;
+  height:50px;
+  border-width:5px;
+  color:#fff;
+  border-color:#566963;
+  font-weight:bold;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  box-shadow:inset 0px 1px 3px 0px #91b8b3;
+  text-shadow:inset 0px -1px 0px #2b665e;
+  background:linear-gradient(#768d87, #6c7c7c);
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.buttonClass:hover {
+  background: linear-gradient(#6c7c7c, #768d87);
+}
