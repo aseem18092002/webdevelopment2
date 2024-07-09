@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;;
+    font-family: sans-serif;
+}
+.fevicon{
+    animation: spin 2S linear forwards;
+}
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    width: 120px;
+    cursor: pointer;
+    color: azure;
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.content h2{
+    font-size: 70px;
+    margin-top: 80px;
+    color: #fff;
+}
+.content p{
+    margin: 20px auto;
+    color: #fff;
+
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.Consultation{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+}
+span{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+
+width: 100%;
+}
+button:hover{
+    border: none;
+}
+.interiors{
+    background-color: aliceblue ;
+    width: 100%;
+    margin: 2% 0 2% 0;
+    text-align: center;
+    padding:4% 0 4% 0;
+}
+h2{
+    color: #009688;
+    font-size: 40px;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    color: cadetblue;
+    margin: 20px auto;
+    width: 50%;
+    font-weight: bolder;
+    line-height: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.livingroom  {
+    color: black;
+    margin-right:2% ;
+    border-radius: 10px;
+    border-style: double;
+    border-color: #009688;
+    transition: transform 0.3s ease;  
+
+}.livingroom:hover{
+    transform: scale(1.2);
+}
+.kitchen{
+    /* width: 60%;
+    height: 55%; */
+    border-style: double;
+    border-radius: 10px;
+    margin-right: 1%;
+    transition: transform 0.3s ease;  
+    
+    
+}
+.kitchen:hover{
+    transform: scale(1.2);
+}
+ .images{
+    
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+ }
+.Bed{
+    
+    /* width: 65%;
+    height: 52%; */
+    border-style: double;
+    border-radius: 10px;
+    transition: transform 0.3s ease;  
+    
+
+}
+.Bed:hover{
+    transform: scale(1.2);
+}
+.living{
+    margin: 0 0 0 45%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border-style:double;
+    border-color: beige;
+    padding: 5px 1px 5px 1px;
+    color: #fff;
+    font-weight: bolder;
+    background-color: #009688;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    
+}
+.living:hover{
+    transform: scale(1.2);
+}
+.kitch{
+    margin: 0 0 0 55%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border-style:double;
+    border-color: beige;
+    padding: 5px 1px 5px 1px;
+    color: #fff;
+    font-weight: bolder;
+    background-color: #009688;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+}
+.kitch:hover{
+    transform: scale(1.2);
+} 
+.bedroom{
+    margin: 0 0 0 50%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border-style:double;
+    border-color: beige;
+    padding: 5px 1px 5px 1px;
+    color: #fff;
+    font-weight: bolder;
+    background-color: #009688;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+}
+.bedroom:hover{
+    transform: scale(1.2);
+}
+.pooja{
+    margin: 0 0 0 50%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border-style:double;
+    border-color: beige;
+    padding: 5px 1px 5px 1px;
+    color: #fff;
+    font-weight: bolder;
+    background-color: #009688;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.pooja:hover{
+    transform: scale(1.2);
+}
+.PoojaRoom{
+    border-style: double;
+    border-radius: 10px;
+    transition: transform 0.3s ease; 
+}
+.PoojaRoom:hover{
+    transform: scale(1.2);
+}
+.balconyroom{
+    margin: 0 0 0 50%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border-style:double;
+    border-color: beige;
+    padding: 5px 1px 5px 1px;
+    color: #fff;
+    font-weight: bolder;
+    background-color: #009688;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    
+
+}
+.balconyroom:hover{
+    transform: scale(1.2);}
+.balcony{
+    border-style:double ;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    
+}
+.balcony:hover{
+    transform: scale(1.2);
+}
+.office{
+    border-style: double;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.office:hover{
+    transform: scale(1.2);
+}
+.officeroom{
+    margin: 0 0 0 50%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border-style:double;
+    border-color: beige;
+    padding: 5px 1px 5px 1px;
+    color: #fff;
+    font-weight: bolder;
+    background-color: #009688;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.officeroom:hover{
+    transform: scale(1.2);
+}
+h3{
+    /* margin: 5px 0 0 30px; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: #009688;
+}
+a{
+    text-decoration: none;
+    color: #009688;
+    font-size: 20px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+   
+
+}
+a:hover{
+    color: #009688;
+    font-size: 20px; 
+    
+}
+.rooms {
+    display: flex;
+    
+    font-size: 0;
+}
+
+.rooms img{
+    display: inline-block;
+    
+    margin: 2% 0 5% 15%;
+    padding: 2%;
+    
+}
+.room2{
+    display: flex;
+    margin-top: 3%;
+    font-size: 0;
+
+}
+.room2 img{
+    display: inline-block;
+    
+    margin: 2% 0 5% 15%;
+    padding: 2%;
+}
+#footer{
+    background-color: #77B0AA;
+    color: #fff;
+    text-align: center;
+    padding: 5% 0 5% 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 10%;
+}
+#footer a{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 0 0.5% 0 0.5%;
+    
+
+    
+}
+#footer p{
+    color: #CDF0EA;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#footer p a{
+    color: #CDF0EA;
+    font-size: 20px;
+    font-weight: bolder;
+    font-size: 30px;
+    
+}
+#footer a:hover{
+    color: aliceblue    ;
+    font-size: 30px;
+    transition: delay 1s;
+    text-transform: uppercase;
+    font-weight: bolder;
+    
+    
+}
+.homezep3d{
+    margin: 5% 0 0 0;
+    padding: 10% 0 0 0;
+}
+
+
